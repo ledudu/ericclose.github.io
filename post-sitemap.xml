@@ -24,6 +24,14 @@
     </url>
 
     <url>
+        <loc>https://ericclose.github.io/StarUML-3-registration.html</loc>
+        <lastmod>2020-09-29T09:54:29.502Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://ericclose.github.io/active-Windows-10-with-digital-license.html</loc>
         <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -48,7 +56,15 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/StarUML-3-registration.html</loc>
+        <loc>https://ericclose.github.io/shadowsocks-client-on-CentOS-7.html</loc>
+        <lastmod>2020-09-29T09:54:29.502Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://ericclose.github.io/libinput-gestures-on-Arch-Linux-with-KDE.html</loc>
         <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -80,7 +96,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/libinput-gestures-on-Arch-Linux-with-KDE.html</loc>
+        <loc>https://ericclose.github.io/upgrade-kernel-version-on-CentOS-7.html</loc>
         <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -96,7 +112,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/upgrade-kernel-version-on-CentOS-7.html</loc>
+        <loc>https://ericclose.github.io/you-get-tutorial.html</loc>
         <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -105,22 +121,6 @@
 
     <url>
         <loc>https://ericclose.github.io/use-the-ODT-to-install-VOL-ed-of-Visio-2016.html</loc>
-        <lastmod>2020-09-29T09:54:29.502Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://ericclose.github.io/shadowsocks-client-on-CentOS-7.html</loc>
-        <lastmod>2020-09-29T09:54:29.502Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://ericclose.github.io/you-get-tutorial.html</loc>
         <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -144,14 +144,6 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/JetBrains.html</loc>
-        <lastmod>2020-09-29T09:54:29.487Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://ericclose.github.io/Github-Pages-with-Hexo.html</loc>
         <lastmod>2020-09-29T09:54:29.487Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -168,6 +160,14 @@
     </url>
 
     <url>
+        <loc>https://ericclose.github.io/JetBrains.html</loc>
+        <lastmod>2020-09-29T09:54:29.487Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://ericclose.github.io/Install-LineageOS-on-sagit.html</loc>
         <lastmod>2020-09-29T09:54:29.487Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -176,7 +176,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/Navicat.html</loc>
+        <loc>https://ericclose.github.io/Pixel-modem-mod-for-China-Telecom.html</loc>
         <lastmod>2020-09-29T09:54:29.487Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -184,7 +184,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/Pixel-modem-mod-for-China-Telecom.html</loc>
+        <loc>https://ericclose.github.io/Navicat.html</loc>
         <lastmod>2020-09-29T09:54:29.487Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
