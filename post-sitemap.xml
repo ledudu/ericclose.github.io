@@ -9,7 +9,7 @@
 
     <url>
         <loc>https://ericclose.github.io/Install-LineageOS-on-sagit.html</loc>
-        <lastmod>2020-11-11T07:35:37.262Z</lastmod>
+        <lastmod>2020-11-11T07:46:27.992Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -40,22 +40,6 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/active-Windows-10-with-digital-license.html</loc>
-        <lastmod>2020-09-29T09:54:29.502Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://ericclose.github.io/git-proxy-config.html</loc>
-        <lastmod>2020-09-29T09:54:29.502Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://ericclose.github.io/StarUML-3-registration.html</loc>
         <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -65,6 +49,22 @@
 
     <url>
         <loc>https://ericclose.github.io/Windows-diskpart-tutorial.html</loc>
+        <lastmod>2020-09-29T09:54:29.502Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://ericclose.github.io/active-Windows-10-with-digital-license.html</loc>
+        <lastmod>2020-09-29T09:54:29.502Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://ericclose.github.io/git-proxy-config.html</loc>
         <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -152,7 +152,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/Github-Pages-with-Hexo.html</loc>
+        <loc>https://ericclose.github.io/Captive-Portal-Android.html</loc>
         <lastmod>2020-09-29T09:54:29.487Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -160,7 +160,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/Captive-Portal-Android.html</loc>
+        <loc>https://ericclose.github.io/Github-Pages-with-Hexo.html</loc>
         <lastmod>2020-09-29T09:54:29.487Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -176,7 +176,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/Pixel-modem-mod-for-China-Telecom.html</loc>
+        <loc>https://ericclose.github.io/Navicat.html</loc>
         <lastmod>2020-09-29T09:54:29.487Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -184,7 +184,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/Navicat.html</loc>
+        <loc>https://ericclose.github.io/Pixel-modem-mod-for-China-Telecom.html</loc>
         <lastmod>2020-09-29T09:54:29.487Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
