@@ -8,16 +8,16 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/Install-LineageOS-on-sagit.html</loc>
-        <lastmod>2020-11-11T09:15:55.516Z</lastmod>
+        <loc>https://ericclose.github.io/Pixel-repairs-and-carriers.html</loc>
+        <lastmod>2020-11-11T09:21:17.611Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/Pixel-repairs-and-carriers.html</loc>
-        <lastmod>2020-10-23T13:01:09.695Z</lastmod>
+        <loc>https://ericclose.github.io/Install-LineageOS-on-sagit.html</loc>
+        <lastmod>2020-11-11T09:15:55.516Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -56,6 +56,14 @@
     </url>
 
     <url>
+        <loc>https://ericclose.github.io/git-proxy-config.html</loc>
+        <lastmod>2020-09-29T09:54:29.502Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://ericclose.github.io/active-Windows-10-with-digital-license.html</loc>
         <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -72,7 +80,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/git-proxy-config.html</loc>
+        <loc>https://ericclose.github.io/install-macOS-10-13-on-VMware-workstation.html</loc>
         <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -81,14 +89,6 @@
 
     <url>
         <loc>https://ericclose.github.io/libinput-gestures-on-Arch-Linux-with-KDE.html</loc>
-        <lastmod>2020-09-29T09:54:29.502Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://ericclose.github.io/install-macOS-10-13-on-VMware-workstation.html</loc>
         <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -120,7 +120,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/use-the-ODT-to-install-VOL-ed-of-Visio-2016.html</loc>
+        <loc>https://ericclose.github.io/upgrade-kernel-version-on-CentOS-7.html</loc>
         <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -128,7 +128,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/upgrade-kernel-version-on-CentOS-7.html</loc>
+        <loc>https://ericclose.github.io/use-the-ODT-to-install-VOL-ed-of-Visio-2016.html</loc>
         <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -168,14 +168,6 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/Navicat.html</loc>
-        <lastmod>2020-09-29T09:54:29.487Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://ericclose.github.io/JetBrains.html</loc>
         <lastmod>2020-09-29T09:54:29.487Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -185,6 +177,14 @@
 
     <url>
         <loc>https://ericclose.github.io/Pixel-modem-mod-for-China-Telecom.html</loc>
+        <lastmod>2020-09-29T09:54:29.487Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://ericclose.github.io/Navicat.html</loc>
         <lastmod>2020-09-29T09:54:29.487Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
