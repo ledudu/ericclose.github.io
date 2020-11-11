@@ -8,8 +8,8 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/access-onionland-with-Tor-on-CentOS-7.html</loc>
-        <lastmod>2020-10-02T07:15:30.475Z</lastmod>
+        <loc>https://ericclose.github.io/Install-LineageOS-on-sagit.html</loc>
+        <lastmod>2020-11-11T07:35:37.262Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -17,15 +17,23 @@
 
     <url>
         <loc>https://ericclose.github.io/Pixel-repairs-and-carriers.html</loc>
-        <lastmod>2020-09-29T09:54:29.502Z</lastmod>
+        <lastmod>2020-10-23T13:01:09.695Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/StarUML-3-registration.html</loc>
-        <lastmod>2020-09-29T09:54:29.502Z</lastmod>
+        <loc>https://ericclose.github.io/Google-setup-wizard.html</loc>
+        <lastmod>2020-10-22T09:13:22.107Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://ericclose.github.io/access-onionland-with-Tor-on-CentOS-7.html</loc>
+        <lastmod>2020-10-02T07:15:30.475Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -48,23 +56,15 @@
     </url>
 
     <url>
+        <loc>https://ericclose.github.io/StarUML-3-registration.html</loc>
+        <lastmod>2020-09-29T09:54:29.502Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://ericclose.github.io/Windows-diskpart-tutorial.html</loc>
-        <lastmod>2020-09-29T09:54:29.502Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://ericclose.github.io/shadowsocks-client-on-CentOS-7.html</loc>
-        <lastmod>2020-09-29T09:54:29.502Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://ericclose.github.io/libinput-gestures-on-Arch-Linux-with-KDE.html</loc>
         <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -88,6 +88,14 @@
     </url>
 
     <url>
+        <loc>https://ericclose.github.io/libinput-gestures-on-Arch-Linux-with-KDE.html</loc>
+        <lastmod>2020-09-29T09:54:29.502Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://ericclose.github.io/phicomm-k2p-Padavan.html</loc>
         <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -96,7 +104,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/upgrade-kernel-version-on-CentOS-7.html</loc>
+        <loc>https://ericclose.github.io/shadowsocks-client-on-CentOS-7.html</loc>
         <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -112,7 +120,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/you-get-tutorial.html</loc>
+        <loc>https://ericclose.github.io/upgrade-kernel-version-on-CentOS-7.html</loc>
         <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -128,7 +136,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/R619AC-OpBoot-and-OpenWrt-flashing.html</loc>
+        <loc>https://ericclose.github.io/you-get-tutorial.html</loc>
         <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -136,8 +144,8 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/Captive-Portal-Android.html</loc>
-        <lastmod>2020-09-29T09:54:29.487Z</lastmod>
+        <loc>https://ericclose.github.io/R619AC-OpBoot-and-OpenWrt-flashing.html</loc>
+        <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -152,7 +160,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/Google-setup-wizard.html</loc>
+        <loc>https://ericclose.github.io/Captive-Portal-Android.html</loc>
         <lastmod>2020-09-29T09:54:29.487Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -161,14 +169,6 @@
 
     <url>
         <loc>https://ericclose.github.io/JetBrains.html</loc>
-        <lastmod>2020-09-29T09:54:29.487Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://ericclose.github.io/Install-LineageOS-on-sagit.html</loc>
         <lastmod>2020-09-29T09:54:29.487Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
