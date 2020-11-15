@@ -40,7 +40,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/StarUML-3-registration.html</loc>
+        <loc>https://ericclose.github.io/Windows-diskpart-tutorial.html</loc>
         <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -48,7 +48,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/Windows-diskpart-tutorial.html</loc>
+        <loc>https://ericclose.github.io/StarUML-3-registration.html</loc>
         <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -88,14 +88,6 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/phicomm-k2p-Padavan.html</loc>
-        <lastmod>2020-09-29T09:54:29.502Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://ericclose.github.io/libinput-gestures-on-Arch-Linux-with-KDE.html</loc>
         <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -104,7 +96,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/shadowsocks-client-on-CentOS-7.html</loc>
+        <loc>https://ericclose.github.io/phicomm-k2p-Padavan.html</loc>
         <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -113,6 +105,14 @@
 
     <url>
         <loc>https://ericclose.github.io/shadowsocks-qt5-for-Fedora-30.html</loc>
+        <lastmod>2020-09-29T09:54:29.502Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://ericclose.github.io/shadowsocks-client-on-CentOS-7.html</loc>
         <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
