@@ -25,7 +25,7 @@
   
 
   
-    <meta name="description" content="由于安装黑苹果需要配备兼容的硬件且难度较大，如果想要更轻松的在Windows和Linux的机子上体验macOS的一种方法就是把它装在 VMware Workstation上。这样做的好处是方便安装，通过使用虚拟机，您可以同时使用macOS和Windows或Linux；但是缺点也很明显，无法充分调动硬件性能。本文将...">
+    <meta name="description" content="由于安装黑苹果需要配备兼容的硬件且难度较大，如果想要更轻松的在 Windows 和 Linux 的机子上体验 macOS 的一种方法就是把它装在 VMware Workstation 上。这样做的好处是方便安装，通过使用虚拟机，您可以同时使用 macOS 和 Windows 或 Linux；但是缺点也很明显，无法...">
   
 
   <!-- feed -->
@@ -457,7 +457,11 @@
 
 
   
-  <p>由于安装黑苹果需要配备兼容的硬件且难度较大，如果想要更轻松的在Windows和Linux的机子上体验macOS的一种方法就是把它装在 VMware Workstation上。这样做的好处是方便安装，通过使用虚拟机，您可以同时使用macOS和Windows或Linux；但是缺点也很明显，无法充分调动硬件性能。本文将指导您如何在VMware Workstation上安装macOS：</p>
+  <p>由于安装黑苹果需要配备兼容的硬件且难度较大，如果想要更轻松的在 Windows 和 Linux 的机子上体验 macOS 的一种方法就是把它装在 VMware Workstation 上。这样做的好处是方便安装，通过使用虚拟机，您可以同时使用 macOS 和 Windows 或 Linux；但是缺点也很明显，无法充分调动硬件性能。本文将指导您如何在 VMware Workstation 上安装 macOS：</p>
+<div class="gallery ">
+              <p><img src="https://cdn.jsdelivr.net/gh/ericclose/images/install-macOS-10.13-on-VMware-workstation/cover.png"></p>
+            </div>
+
 <a id="more"></a>
 
 <h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>下载好以下文件：</p>
@@ -467,7 +471,7 @@
 <p>VMware Workstation是VMware公司推出的一款桌面虚拟计算软件，至于下载和安装，填写license这里不赘述，请自行使用搜索引擎查询。</p>
 </blockquote>
 </li>
-<li><p>unlocker (项目发行地址<a target="_blank" rel="noopener" href="https://github.com/DrDonk/unlocker/releases">点此</a>，此处下载最新版本的zip)</p>
+<li><p>unlocker (项目发行地址<a target="_blank" rel="noopener" href="https://github.com/paolo-projects/unlocker/releases">点此</a>，此处下载最新版本的zip)</p>
 <blockquote>
 <p>在用VMware安装macOS前需要对VMware打补丁，unlocker就起到这个作用。</p>
 </blockquote>
@@ -477,15 +481,14 @@
 <li>链接：<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1eSGmiwq">https://pan.baidu.com/s/1eSGmiwq</a></li>
 <li>密码：2zk6</li>
 <li>MD5 ：3E3048A0BD26A03D54DBED7706548726</li>
+<li>SHA-1 ：31094D7B58D67002B9824E428675E895F81F4B47</li>
 </ul>
-</li>
-<li><p>SHA-1 ：31094D7B58D67002B9824E428675E895F81F4B47</p>
 </li>
 </ul>
 <blockquote>
 <p><strong>macOS High Sierra 10.13.iso</strong> 是macOS的镜像文件。MD5 和 SHA-1 用于校验文件是否完整无损坏。如果不知道如何校验，请自行使用搜索引擎查询。</p>
 </blockquote>
-<h2 id="应用-unlocker-补丁"><a href="#应用-unlocker-补丁" class="headerlink" title="应用 unlocker 补丁"></a>应用 unlocker 补丁</h2><p>把下载好的unlocker解压，此处我以解压到 <code>G:\unlocker</code> 为例。<br>使用 <strong>管理员模式</strong> 打开cmd，执行以下命令：</p>
+<h2 id="应用-unlocker-补丁"><a href="#应用-unlocker-补丁" class="headerlink" title="应用 unlocker 补丁"></a>应用 unlocker 补丁</h2><p>把下载好的unlocker解压，此处我以解压到 <code>H:\unlocker</code> 为例。<br>使用 <strong>管理员模式</strong> 打开cmd，执行以下命令：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /d H:\unlocker</span><br><span class="line">win-install</span><br></pre></td></tr></table></figure>
 
 <p>执行命令后期间会下载 <strong>VMware Tools</strong> ，所以过程需要稍微比较久的时间，当显示Finished后即表明已完成打补丁的操作，截图如下：</p>
@@ -668,7 +671,9 @@
 <ul>
 <li>重启完后，弹窗提示 <strong>VMware Tools 已被阻止</strong> ，我们打开 <strong>dock栏</strong> 上的 <strong>系统偏好设置</strong>  </li>
 </ul>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/install-macOS-10.13-on-VMware-workstation/37.png"/></div></div>
+<div class="gallery ">
+              <p><img src="https://cdn.jsdelivr.net/gh/ericclose/images/install-macOS-10.13-on-VMware-workstation/37.png"></p>
+            </div>
 
 <ul>
 <li>点击【安全性与隐私】  </li>
@@ -683,8 +688,9 @@
 <ul>
 <li>最后，弄完上述所有操作后重启就OK了。此处附上成果图，如下：  </li>
 </ul>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/install-macOS-10.13-on-VMware-workstation/40.jpg"/></div></div>
-
+<div class="gallery ">
+              <p><img src="https://cdn.jsdelivr.net/gh/ericclose/images/install-macOS-10.13-on-VMware-workstation/40.jpg"></p>
+            </div>
   
   
     
@@ -735,7 +741,10 @@
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://ericclose.github.io/install-macOS-10-13-on-VMware-workstation.html&title=VMware Workstation 安装 macOS 10.13（多图预警） - Eric&summary=由于安装黑苹果需要配备兼容的硬件且难度较大，如果想要更轻松的在Windows和Linux的机子上体验macOS的一种方法就是把它装在 VMware Workstation上。这样做的好处是方便安装，通过使用虚拟机，您可以同时使用macOS和Windows或Linux；但是缺点也很明显，无法充分调动硬件性能。本文将指导您如何在VMware Workstation上安装macOS："
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://ericclose.github.io/install-macOS-10-13-on-VMware-workstation.html&title=VMware Workstation 安装 macOS 10.13（多图预警） - Eric&summary=由于安装黑苹果需要配备兼容的硬件且难度较大，如果想要更轻松的在 Windows 和 Linux 的机子上体验 macOS 的一种方法就是把它装在 VMware Workstation 上。这样做的好处是方便安装，通过使用虚拟机，您可以同时使用 macOS 和 Windows 或 Linux；但是缺点也很明显，无法充分调动硬件性能。本文将指导您如何在 VMware Workstation 上安装 macOS：
+
+              
+            "
           
           >
           
@@ -747,7 +756,10 @@
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://ericclose.github.io/install-macOS-10-13-on-VMware-workstation.html&title=VMware Workstation 安装 macOS 10.13（多图预警） - Eric&summary=由于安装黑苹果需要配备兼容的硬件且难度较大，如果想要更轻松的在Windows和Linux的机子上体验macOS的一种方法就是把它装在 VMware Workstation上。这样做的好处是方便安装，通过使用虚拟机，您可以同时使用macOS和Windows或Linux；但是缺点也很明显，无法充分调动硬件性能。本文将指导您如何在VMware Workstation上安装macOS："
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://ericclose.github.io/install-macOS-10-13-on-VMware-workstation.html&title=VMware Workstation 安装 macOS 10.13（多图预警） - Eric&summary=由于安装黑苹果需要配备兼容的硬件且难度较大，如果想要更轻松的在 Windows 和 Linux 的机子上体验 macOS 的一种方法就是把它装在 VMware Workstation 上。这样做的好处是方便安装，通过使用虚拟机，您可以同时使用 macOS 和 Windows 或 Linux；但是缺点也很明显，无法充分调动硬件性能。本文将指导您如何在 VMware Workstation 上安装 macOS：
+
+              
+            "
           
           >
           
@@ -759,7 +771,10 @@
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=https://ericclose.github.io/install-macOS-10-13-on-VMware-workstation.html&title=VMware Workstation 安装 macOS 10.13（多图预警） - Eric&summary=由于安装黑苹果需要配备兼容的硬件且难度较大，如果想要更轻松的在Windows和Linux的机子上体验macOS的一种方法就是把它装在 VMware Workstation上。这样做的好处是方便安装，通过使用虚拟机，您可以同时使用macOS和Windows或Linux；但是缺点也很明显，无法充分调动硬件性能。本文将指导您如何在VMware Workstation上安装macOS："
+          target="_blank" href="http://service.weibo.com/share/share.php?url=https://ericclose.github.io/install-macOS-10-13-on-VMware-workstation.html&title=VMware Workstation 安装 macOS 10.13（多图预警） - Eric&summary=由于安装黑苹果需要配备兼容的硬件且难度较大，如果想要更轻松的在 Windows 和 Linux 的机子上体验 macOS 的一种方法就是把它装在 VMware Workstation 上。这样做的好处是方便安装，通过使用虚拟机，您可以同时使用 macOS 和 Windows 或 Linux；但是缺点也很明显，无法充分调动硬件性能。本文将指导您如何在 VMware Workstation 上安装 macOS：
+
+              
+            "
           
           >
           

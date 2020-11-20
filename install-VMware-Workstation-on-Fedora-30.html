@@ -480,19 +480,34 @@
 <h3 id="方法二（替换原始的tarball，推荐）"><a href="#方法二（替换原始的tarball，推荐）" class="headerlink" title="方法二（替换原始的tarball，推荐）"></a>方法二（替换原始的tarball，<strong>推荐</strong>）</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">wget https://github.com/mkubecek/vmware-host-modules/archive/workstation-x.y.z.tar.gz</span><br><span class="line">tar -xzf workstation-x.y.z.tar.gz</span><br><span class="line"><span class="built_in">cd</span> vmware-host-modules-workstation-x.y.z</span><br><span class="line">tar -cf vmmon.tar vmmon-only</span><br><span class="line">tar -cf vmnet.tar vmnet-only</span><br><span class="line">sudo cp -v vmmon.tar vmnet.tar /usr/lib/vmware/modules/<span class="built_in">source</span>/</span><br><span class="line">sudo vmware-modconfig --console --install-all</span><br></pre></td></tr></table></figure>
 
 <h2 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h2><p>经过 patch，这时再运行，就可以正常运行了。</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/install-VMware-Workstation-on-Fedora-30.png"/></div></div>
-
-<blockquote>
-<p>参考资料： </p>
-</blockquote>
-<ol>
-<li><a target="_blank" rel="noopener" href="https://ask.fedoraproject.org/t/howto-how-to-resolve-issues-for-vmworkstation-and-vmplayer-any-kernel-any-version/2162">How to Resolve Issues for VMWORKSTATION and VMPLAYER (ANY KERNEL + ANY VERSION)</a></li>
-</ol>
+<div class="gallery ">
+              <p><img src="https://cdn.jsdelivr.net/gh/ericclose/images/install-VMware-Workstation-on-Fedora-30.png" alt="成果图"></p>
+            </div>
 
   
   
     
     <div class='footer'>
+      
+        <div class='references'>
+          <section class='header'>
+            
+              <i class="fas fa-quote-left fa-fw" aria-hidden="true"></i>
+            
+            <span>参考资料</span>
+          </section>
+          <section class='body'>
+            <ul>
+              
+                <li>
+                  <a href="https://ask.fedoraproject.org/t/howto-how-to-resolve-issues-for-vmworkstation-and-vmplayer-any-kernel-any-version/2162" rel="external nofollow noopener noreferrer" target="_blank">
+                  How to Resolve Issues for VMWORKSTATION and VMPLAYER (ANY KERNEL + ANY VERSION)
+                  </a>
+                </li>
+              
+            </ul>
+          </section>
+        </div>
       
       
       

@@ -461,14 +461,14 @@
 <a id="more"></a>
 
 <blockquote>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/Google-setup-wizard/1.jpg"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/Google-setup-wizard/1.jpg" alt="需要验证 Google 账户" style="width:500px;"/></div><span class="image-caption">需要验证 Google 账户</span></div>
 
 <p>Android 原生的 FRP 机制，是从 Android 5.1 开始引入的。为了实现这个功能，手机有一个单独的分区，config 或 frp 来存放重置保护状态的相关信息。如果此分区里被标记为非正常重置且存放了特定加密存储后的 Google 账户信息，手机在非正常重置之后开机，会无法跳过 Wi-Fi 连接。连接到能访问到 Google 服务的热点之后，手机会强制搜索系统更新，并要求用户登录重置前使用的 Google 账户来验证用户的所有权。——引用自<a target="_blank" rel="noopener" href="https://bbs.letitfly.me/d/856">重置保护 / 谷歌锁 Factory Reset Protection 的解除方法 - LetITFly BBS</a></p>
 </blockquote>
 <p>由于在中国大陆的网络环境下，Google 的服务器是无法正常联通的，所以就会出现难以通过 Google 开机向导的情况，下面我会介绍 3 种方法来教您如何解决这一困境。</p>
 <h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p><strong>解决方法如下，任选其中一种即可。</strong></p>
 <h3 id="1-点按四角法"><a href="#1-点按四角法" class="headerlink" title="1. 点按四角法"></a>1. 点按四角法</h3><p>这个方法最简单，缺点是仅仅适用于通过刷入 OpenGapps 后开机遇到开机向导过不去的情况，你只要<strong>从左上角沿边缘顺时针点按图中所示的区域</strong>，即可直接跳过烦人的验证。注意不要误触到其他区域。</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/Google-setup-wizard/2.png"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/Google-setup-wizard/2.png" alt="按数字顺序点击图中标记的地方即可" style="width:250px;"/></div><span class="image-caption">按数字顺序点击图中标记的地方即可</span></div>
 
 <hr>
 <h3 id="2-局域网代理法"><a href="#2-局域网代理法" class="headerlink" title="2. 局域网代理法"></a>2. 局域网代理法</h3><p>这个操作稍显复杂，但通过局域网代理的方法我们可以在手机端没办法使用代理 app 翻墙的情况下，登录 Google 账户来完成向导配置，我个人会更偏好这种做法。</p>
@@ -499,7 +499,7 @@
 <h4 id="手机端的操作"><a href="#手机端的操作" class="headerlink" title="手机端的操作"></a>手机端的操作</h4><hr>
 <p>手机连接 Wi-Fi 填写完密码后，不要着急着连接。</p>
 <p>展开「<strong>Advanced options</strong> 高级选项」-&gt;「<strong>Proxy</strong> 代理」-&gt; 选择「<strong>Manual</strong> 手动」-&gt; 在「<strong>Proxy hostname</strong> 代理主机名」填写你电脑的<strong>局域网（LAN）IP</strong> -&gt;「<strong>Proxy port</strong> 代理端口」填写你所使用的代理软件的<strong>本地 HTTP 代理端口</strong> -&gt; 最后「<strong>Connect</strong> 连接」Wi-Fi。</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/Google-setup-wizard/4.png"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/Google-setup-wizard/4.png" alt="手机端的配置" style="width:200px;"/></div><span class="image-caption">手机端的配置</span></div>
 
 <p>之后，你的手机就能通过连接局域网代理直接科学上网登录 Google 账户了，接下来应该不用我多说了。</p>
 <hr>

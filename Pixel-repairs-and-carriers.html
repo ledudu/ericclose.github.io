@@ -484,7 +484,10 @@
 <li><p>用手机拨号器拨打 <code>*#06#</code> ，可以看到手机的 IMEI 和序列号。IMEI 处的内容为 <code>*************** / **</code>，我们这里取 <code>/</code> 前面的内容（也就是前 15 位），输入到网站里即可获知 Pixel 的<strong>容量大小</strong>，<strong>机身颜色</strong>和<strong>保修截止日期</strong>等。有部分人可以查到 Unlocked（无运营商锁），Verizon（Verizon 运营商版），或者是 Refurbished（官翻机）之类的字样，而我这里却什么都查不到🤣。</p>
 </li>
 </ol>
-<p><img src="https://cdn.jsdelivr.net/gh/ericclose/images/Pixel-repairs-and-carriers/1.png" alt="Pixel 保修信息查询结果"></p>
+<div class="gallery ">
+              <p><img src="https://cdn.jsdelivr.net/gh/ericclose/images/Pixel-repairs-and-carriers/1.png" alt="Pixel 保修信息查询结果"></p>
+            </div>
+
 <h2 id="确认是否可以解锁-bootloader"><a href="#确认是否可以解锁-bootloader" class="headerlink" title="确认是否可以解锁 bootloader"></a>确认是否可以解锁 bootloader</h2><ol>
 <li><p>前往「<strong>Settings</strong>（设置） -&gt; <strong>About phone</strong>（关于手机） -&gt; <strong>Build number</strong>（版本号）」，连续点击版本号 7 次即可开启「<strong>开发者选项</strong>」。</p>
 </li>
@@ -493,11 +496,15 @@
 <li><p>前往「<strong>Settings</strong>（设置） -&gt; <strong>System</strong>（系统） -&gt; <strong>Adavanced</strong>（高级） -&gt; <strong>Developer options</strong>（开发者选项）」，<strong>开启</strong>「<strong>OEM unlocking</strong>」选项。如若选项显示为灰色，且为不可开启的状态，则很可能是 Verizon 版（带运营商锁的版本），我手中的这台 Pixel 就是这样😂。</p>
 </li>
 </ol>
-<p><img src="https://cdn.jsdelivr.net/gh/ericclose/images/Pixel-repairs-and-carriers/2.png" alt="无法开启的 OEM unlocking 选项"></p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/Pixel-repairs-and-carriers/2.png" alt="无法开启的 OEM unlocking 选项"/></div><span class="image-caption">无法开启的 OEM unlocking 选项</span></div>
+
 <ol start="4">
 <li>开启「<strong>OEM unlocking</strong>」选项后，手机进入 bootloader 模式（<strong>手机在重启或开机的过程中，长按音量下键即可进入 bootloader 模式</strong>），可以看到 Product/Variant: sailfish-US-PVT 。US 指的是美国，PVT 则是指  <strong>产品验证测试阶段</strong> （production validation test），这么来说也算是正常的销售商品；如若是 EVT 的话则是指 <strong>工程验证测试阶段</strong> （engineering validation test），那么这种手机也就是俗称上的工程机了。</li>
 </ol>
-<p><img src="https://cdn.jsdelivr.net/gh/ericclose/images/Pixel-repairs-and-carriers/3.png" alt="bootloader 界面"></p>
+<div class="gallery ">
+              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/Pixel-repairs-and-carriers/3.png" style="height:512px;"/></div></div>
+            </div>
+
 <ol start="5">
 <li>为了完成下面的操作，请确保满足以下条件：</li>
 </ol>
@@ -519,7 +526,8 @@
 <ol start="7">
 <li>如果你前面正常启用「<strong>OEM unlocking</strong>」选项的话，这时手机应该就会询问你是否解锁 bootloader。由于安全设计，<strong>如果你确认解锁 bootloader 手机将会删除所有的数据（即恢复出厂设置）</strong>，取消则不会解锁 bootloader。（而我这边输入命令后，直接报错 <code>FAILED (remote: Flashing Unlock is not allowed)</code> ，也就根本不会询问是否解锁 bootloader。这也是正常的，因为我前面根本无法开启 OEM unlocking 的选项🥺。经过上面的操作，我基本可以确认我这台 Pixel 就是 Verizon 版的了…）</li>
 </ol>
-<p><img src="https://cdn.jsdelivr.net/gh/ericclose/images/Pixel-repairs-and-carriers/unlock-bootloader.jpg" alt="询问是否解锁 bootloader（图片来自互联网）"></p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/Pixel-repairs-and-carriers/unlock-bootloader.jpg" alt="询问是否解锁 bootloader（图片来自互联网）"/></div><span class="image-caption">询问是否解锁 bootloader（图片来自互联网）</span></div>
+
 <h2 id="更简单的方法确认是不是-Verizon-版"><a href="#更简单的方法确认是不是-Verizon-版" class="headerlink" title="更简单的方法确认是不是 Verizon 版"></a>更简单的方法确认是不是 Verizon 版</h2><p>最后我查阅资料发现有个简单的方法确认 Pixel 是不是 Verizon 版本的，只需要这么做：</p>
 <ol>
 <li><p>前往「<strong>Settings</strong>（设置） -&gt; <strong>System</strong>（系统） -&gt; <strong>Adavanced</strong>（高级） -&gt; <strong>Developer options</strong>（开发者选项）」，开启「<strong>USB Debuging</strong>（USB 调试）」的选项。</p>

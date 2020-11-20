@@ -468,7 +468,9 @@
 <h4 id="编辑配置文件"><a href="#编辑配置文件" class="headerlink" title="编辑配置文件"></a>编辑配置文件</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi ~/shadowsocks.json</span><br></pre></td></tr></table></figure>
 
 <h4 id="json配置信息"><a href="#json配置信息" class="headerlink" title="json配置信息"></a>json配置信息</h4><p>此处以我常用的机场为例，直接复制节点列表任一可用的节点的json，如图  </p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/shadowsocks-on-CentOS_7/1.png"/></div></div>
+<div class="gallery ">
+              <p><img src="https://cdn.jsdelivr.net/gh/ericclose/images/shadowsocks-on-CentOS_7/1.png"></p>
+            </div>
 
 <p>写进shadowsocks.json的配置信息大致如下</p>
 <figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">        <span class="attr">&quot;server&quot;</span>: <span class="string">&quot;xxx.xxx.xxx.xxx&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;local_address&quot;</span>: <span class="string">&quot;127.0.0.1&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;local_port&quot;</span>: <span class="number">1080</span>,</span><br><span class="line">        <span class="attr">&quot;timeout&quot;</span>: <span class="number">300</span>,</span><br><span class="line">        <span class="attr">&quot;workers&quot;</span>: <span class="number">1</span>,</span><br><span class="line">        <span class="attr">&quot;server_port&quot;</span>: <span class="number">24653</span>,</span><br><span class="line">        <span class="attr">&quot;password&quot;</span>: <span class="string">&quot;xxxxxx&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;method&quot;</span>: <span class="string">&quot;chacha20-ietf&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;plugin&quot;</span>: <span class="string">&quot;&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -476,14 +478,15 @@
 <h4 id="启动shadowsocks客户端（即ss-local）"><a href="#启动shadowsocks客户端（即ss-local）" class="headerlink" title="启动shadowsocks客户端（即ss-local）"></a>启动shadowsocks客户端（即ss-local）</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ss-local -c ~/shadowsocks.json</span><br></pre></td></tr></table></figure>
 
 <p>如图所示  </p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/shadowsocks-on-CentOS_7/2.jpg"/></div></div>
-
+<p><img src="https://cdn.jsdelivr.net/gh/ericclose/images/shadowsocks-on-CentOS_7/2.jpg"></p>
 <p><strong>注意</strong>：请不要关闭终端</p>
-<h4 id="启用系统代理"><a href="#启用系统代理" class="headerlink" title="启用系统代理"></a>启用系统代理</h4><p>「设置」-&gt;「网络」-&gt;「网络代理」-&gt;「手动」，如图所示：</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/shadowsocks-on-CentOS_7/3.png"/></div></div>
+<h4 id="启用系统代理"><a href="#启用系统代理" class="headerlink" title="启用系统代理"></a>启用系统代理</h4><p>「<strong>设置</strong>」-&gt;「<strong>网络</strong>」-&gt;「<strong>网络代理</strong>」-&gt;「<strong>手动</strong>」，如图所示：</p>
+<div class="gallery ">
+              <p><img src="https://cdn.jsdelivr.net/gh/ericclose/images/shadowsocks-on-CentOS_7/3.png"></p>
+            </div>
 
 <p>在socks主机里填写你 <code>shadowsocks.json</code> 里的 <code>local_address</code> 和 <code>local_port</code> ，如我这里的 <code>127.0.0.1</code> 和 <code>1080</code> 。弄完关闭设置窗口就可以科学上网了。</p>
-<h4 id="关闭代理"><a href="#关闭代理" class="headerlink" title="关闭代理"></a>关闭代理</h4><p>当你不想科学上网的时候先关闭系统代理（「设置」-&gt;「网络」-&gt;「网络代理」-&gt;「禁用」即可），然后在ss-local的那个终端按Ctrl+C即可。</p>
+<h4 id="关闭代理"><a href="#关闭代理" class="headerlink" title="关闭代理"></a>关闭代理</h4><p>当你不想科学上网的时候先关闭系统代理（「<strong>设置</strong>」-&gt;「<strong>网络</strong>」-&gt;「<strong>网络代理</strong>」-&gt;「<strong>禁用</strong>」即可），然后在 ss-local 的那个终端按<kbd>Ctrl</kbd> + <kbd>C</kbd>即可。</p>
 
   
   
