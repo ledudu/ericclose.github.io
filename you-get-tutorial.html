@@ -459,8 +459,7 @@
 
   
   <p>You-get 是一个小巧的能够用于下载网络媒体内容（视频，音频，图片）的命令行程序。开发者是<a target="_blank" rel="noopener" href="https://github.com/soimort">soimort</a>，仓库<a target="_blank" rel="noopener" href="https://github.com/soimort/you-get">点击这里</a>访问</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/you-get.png"/></div></div>
-
+<p><img src="https://cdn.jsdelivr.net/gh/ericclose/images/you-get.png"></p>
 <a id="more"></a>
 
 <h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>以下乃必要依赖，需要单独安装：</p>
@@ -477,9 +476,9 @@
 <p>打开 <code>cmd</code> ，通过 <code>pip</code> 安装 <code>you-get</code> ，即输入如下命令：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip3 install you-get</span><br></pre></td></tr></table></figure>
 
-<ol>
-<li>如果需要 <code>you-get</code> 通过 SOCKS5 代理（如 Shadowsocks / ShadwoskcsR）下载 <a target="_blank" rel="noopener" href="https://www.youtube.com/">YouTube</a> 的视频，还得安装 <strong>PySocks</strong></li>
-</ol>
+<blockquote>
+<p>如果需要 <code>you-get</code> 通过 SOCKS5 代理（如 Shadowsocks / ShadwoskcsR）下载 <a target="_blank" rel="noopener" href="https://www.youtube.com/">YouTube</a> 的视频，还得安装 <strong>PySocks</strong></p>
+</blockquote>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip3 install PySocks</span><br></pre></td></tr></table></figure>
 
 <h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><ul>
@@ -494,28 +493,34 @@
 
 <p><strong>这里值得说明的是：</strong></p>
 <ul>
-<li>-o后面的是视频需要下载至的路径，如果你输入的时候没有这个选项的话就默认下载到cmd的工作目录下，如下图的工作目录就是 <code>C:\Users\Innovation</code></li>
+<li><code>-o</code> 后面的是视频需要下载至的路径，如果你输入的时候没有这个选项的话就默认下载到 cmd 的工作目录下，如下图的工作目录就是 <code>C:\Users\Innovation</code></li>
 </ul>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/you-get/cmd-workplace.png"/></div></div>
+<div class="gallery ">
+              <p><img src="https://cdn.jsdelivr.net/gh/ericclose/images/you-get/cmd-workplace.png" alt="cmd 的工作路径"></p>
+            </div>
 
 <ul>
-<li>-O后面则是保存的名字，你输入的时候 <strong>没有</strong> 这个选项的的话，文件名字就是默认为前面的Title，即 <code>【官方双语】游戏本？轻薄本？谁才是便携游戏之本？#linus谈科技</code><br>那么如果你想要下载其他画质或格式的视频你又该怎样呢？<br>比如说我们选择上面示例中的 <code>82.2 MiB</code> 大小的那个画质，只需要在url（即 <em><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/av33503264">https://www.bilibili.com/video/av33503264</a></em> ）之前添加 <code>--format=flv</code> （根据前面的 <code># download-with: you-get --format=flv [URL]</code> 得知）即可</li>
+<li><code>-O</code> 后面则是保存的名字，你输入的时候 <strong>没有</strong> 这个选项的的话，文件名字就是默认为前面的 Title，即 <code>【官方双语】游戏本？轻薄本？谁才是便携游戏之本？#linus谈科技</code></li>
 </ul>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/you-get/download-with.png"/></div></div>
+<p>那么如果你想要下载其他画质或格式的视频你又该怎样呢？</p>
+<p>比如说我们选择上面示例中的 <code>82.2 MiB</code> 大小的那个画质，只需要在url（即 <em><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/av33503264">https://www.bilibili.com/video/av33503264</a></em> ）之前添加 <code>--format=flv</code> （根据前面的 <code># download-with: you-get --format=flv [URL]</code> 得知）即可</p>
+<div class="gallery ">
+              <p><img src="https://cdn.jsdelivr.net/gh/ericclose/images/you-get/download-with.png" alt="画质格式选择"></p>
+            </div>
 
 <p>如果中途想暂停了，怎么办？</p>
 <ul>
 <li>暂停与恢复下载<ul>
-<li>可以使用Ctrl+C 暂停下载.</li>
-<li>临时的 <code>*.download</code> 文件将保存于输出目录。下次使用you-get传入相同参数时，下载将从上次继续开始。</li>
+<li>可以使用 <kbd>Ctrl</kbd> + <kbd>C</kbd> 暂停下载.</li>
+<li>临时的 <code>*.download</code> 文件将保存于输出目录。下次使用 you-get 传入相同参数时，下载将从上次继续开始。</li>
 </ul>
 </li>
 </ul>
-<h2 id="代理问题"><a href="#代理问题" class="headerlink" title="代理问题"></a>代理问题</h2><p>当需要使用SOCKS5代理(Shdowsocks / ShadowsocksR)时，您可以使用 -s 选项设置socks代理。如：</p>
+<h2 id="代理问题"><a href="#代理问题" class="headerlink" title="代理问题"></a>代理问题</h2><p>当需要使用SOCKS5代理(Shdowsocks / ShadowsocksR)时，您可以使用 <code>-s</code> 选项设置socks代理。如：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">you-get -s 127.0.0.1:1080 https://www.youtube.com/watch?v=jNQXAC9IVRw</span><br></pre></td></tr></table></figure>
 
 <blockquote>
-<p>注意：上面的 <code>1080</code> 是我Shadowsocks/ShadowsocksR的端口号，如果你的不是这个端口号，请自行更改。</p>
+<p>注意：上面的 <code>1080</code> 是我 Shadowsocks / ShadowsocksR 的端口号，如果你的不是这个端口号，请自行更改。</p>
 </blockquote>
 
   
@@ -649,8 +654,10 @@
           <p class='content'>本文提供 Navicat 的官网，如果条件允许请支持正版。当然本文依然会提供 crack 过程
 
 
+
+
 Navicat 官网
-中文官网产品页面：https://www.navicat.com.cn/...</p>
+中文官网产品页面：https://www.navicat.com.c...</p>
         </a>
       
     </div>

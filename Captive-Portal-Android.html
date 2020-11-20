@@ -461,18 +461,38 @@
 <a id="more"></a>
 
 <h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p><a target="_blank" rel="noopener" href="https://developer.android.com/reference/android/net/CaptivePortal">CaptivePortal</a> 是 Android 5.0 引入的一种检测网络是否正常连接的机制，通过 HTTP 返回的状态码是否是 204 来判断是否成功，如果访问得到了 200，那你就可能处在一个需要登录验证才能上网的环境里，比如说校园网，再比如说一些酒店提供的客户才能免费使用的 Wi-Fi（其实是通过 DNS 劫持实现的），如果连接超时（根本就连接不上）就在 Wi-Fi 图标和信号图标上加一个标志，Android 5 和 Android 6 是叹号，Android 7 改成一个叉了。只不过默认访问的是谷歌自家的验证服务器，然而 Google 是被墙掉了，导致 Android 没有办法正确评估网络。所以，系统每隔一定时间都会重新尝试连接，就在不知不觉中消耗了数据流量。更恐怖的就是 Android 认为在 Wi-Fi 下无法连接互联网，就让联网的程序通通走流量…</p>
-<h2 id="ADB-工具"><a href="#ADB-工具" class="headerlink" title="ADB 工具"></a>ADB 工具</h2><p>要想去除，需要用到一个工具，那就是 ADB，<a target="_blank" rel="noopener" href="https://dl.google.com/android/repository/platform-tools-latest-windows.zip">点此</a> 下载（需要科学上网）。然后请自行搞定 ADB 的环境变量配置，如果不会请 <a target="_blank" rel="noopener" href="http://bfy.tw/Lqvg">点此</a>。配置好后，请在<strong>手机设置</strong>里开启<strong>开发者选项</strong>，然后再打开<strong>USB 调试</strong>。最后通过数据线连接电脑，就可以开搞了。</p>
+<h2 id="ADB-工具"><a href="#ADB-工具" class="headerlink" title="ADB 工具"></a>ADB 工具</h2><p>要想去除，需要用到一个工具，那就是 ADB，<a target="_blank" rel="noopener" href="https://dl.google.com/android/repository/platform-tools-latest-windows.zip">点此</a> 下载（需要科学上网）。然后请自行搞定 ADB 的环境变量配置，如果不会请<a target="_blank" rel="noopener" href="http://bfy.tw/Lqvg">点此</a>。配置好后，请在<strong>手机设置</strong>里开启<strong>开发者选项</strong>，然后再打开<strong>USB 调试</strong>。最后通过数据线连接电脑，就可以开搞了。</p>
 <h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><h3 id="Android-5-0-6-0"><a href="#Android-5-0-6-0" class="headerlink" title="Android 5.0 - 6.0"></a>Android 5.0 - 6.0</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 删除地址就可以恢复默认的谷歌服务器</span></span><br><span class="line">adb shell settings delete global captive_portal_server</span><br><span class="line"><span class="comment"># 设置一个可用地址</span></span><br><span class="line">adb shell settings put global captive_portal_server http://developers.google.cn/generate_204</span><br><span class="line"><span class="comment"># 查询当前地址</span></span><br><span class="line">adb shell settings get global captive_portal_server</span><br></pre></td></tr></table></figure>
 
 <p><strong>注意</strong>：执行完后请打开飞行模式后再关闭</p>
-<h3 id="Android-7-0-Android-10-0"><a href="#Android-7-0-Android-10-0" class="headerlink" title="Android 7.0 - Android 10.0"></a>Android 7.0 - Android 10.0</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 删除（删除默认用HTTPS）</span></span><br><span class="line">adb shell settings delete global captive_portal_https_url</span><br><span class="line">adb shell settings delete global captive_portal_http_url</span><br><span class="line"><span class="comment"># 设置一个可用地址</span></span><br><span class="line">adb shell settings put global captive_portal_http_url http://developers.google.cn/generate_204</span><br><span class="line">adb shell settings put global captive_portal_https_url https://developers.google.cn/generate_204</span><br></pre></td></tr></table></figure>
+<h3 id="Android-7-0-Android-10-0"><a href="#Android-7-0-Android-10-0" class="headerlink" title="Android 7.0 - Android 10.0"></a>Android 7.0 - Android 10.0</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 删除（删除默认用 HTTPS ）</span></span><br><span class="line">adb shell settings delete global captive_portal_https_url</span><br><span class="line">adb shell settings delete global captive_portal_http_url</span><br><span class="line"><span class="comment"># 设置一个可用地址</span></span><br><span class="line">adb shell settings put global captive_portal_http_url http://developers.google.cn/generate_204</span><br><span class="line">adb shell settings put global captive_portal_https_url https://developers.google.cn/generate_204</span><br></pre></td></tr></table></figure>
 
-<p><strong>注意</strong>：执行完后请打开飞行模式后再关闭</p>
+<p><strong>注意</strong>：最后，请打开飞行模式后再把飞行模式关掉就好啦~</p>
 
   
   
     
     <div class='footer'>
+      
+        <div class='references'>
+          <section class='header'>
+            
+              <i class="fas fa-quote-left fa-fw" aria-hidden="true"></i>
+            
+            <span>参考资料</span>
+          </section>
+          <section class='body'>
+            <ul>
+              
+                <li>
+                  <a href="https://www.evil42.com/index.php/archives/17" rel="external nofollow noopener noreferrer" target="_blank">
+                  原生安卓 WiFi 信号去叹号去叉教程 5.0 ~ Android P
+                  </a>
+                </li>
+              
+            </ul>
+          </section>
+        </div>
       
       
       
@@ -603,10 +623,9 @@ K2P (B2)
 
 
 
-
 准备工作以下乃必要依赖，需要单独安装：
 
-Python 3...</p>
+Python 3 ...</p>
         </a>
       
     </div>

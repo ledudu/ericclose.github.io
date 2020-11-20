@@ -483,8 +483,7 @@ K2P (B2)
 <li>官方系统 <strong>软件版本</strong> 为 <code>22.7.8.5</code></li>
 </ul>
 <h2 id="启用-Telnet"><a href="#启用-Telnet" class="headerlink" title="启用 Telnet"></a>启用 Telnet</h2><h3 id="Windows-启用-Telnet-客户端"><a href="#Windows-启用-Telnet-客户端" class="headerlink" title="Windows 启用 Telnet 客户端"></a>Windows 启用 Telnet 客户端</h3><p>「控制面板」–&gt;「程序」–&gt;「程序和功能」–&gt;「启用或关闭 Windows 功能」，找到「Telnet 客户端」启用即可，如图。  </p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/phicomm-k2p-Padavan/1.png"/></div></div>
-
+<p><img src="https://cdn.jsdelivr.net/gh/ericclose/images/phicomm-k2p-Padavan/1.png"></p>
 <h3 id="启用路由器的-Telnet"><a href="#启用路由器的-Telnet" class="headerlink" title="启用路由器的 Telnet"></a>启用路由器的 Telnet</h3><ul>
 <li>准备1：电脑、网线2根、<strong>全新</strong> / <strong>已恢复出厂</strong> 的K2P。  </li>
 <li>准备2：下载K2P的telnet开启工具。<a target="_blank" rel="noopener" href="https://github.com/ericclose/cdn-assets/raw/master/blog/K2P_telnet_tool.zip">【点击下载】</a></li>
@@ -494,16 +493,22 @@ K2P (B2)
 <blockquote>
 <p>请在这个时候再确认一下K2P的版本号，如果版本号与刷机方式不匹配，容易出现刷机设备等问题。</p>
 </blockquote>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/phicomm-k2p-Padavan/2.png"/></div></div>
+<div class="gallery ">
+              <p><img src="https://cdn.jsdelivr.net/gh/ericclose/images/phicomm-k2p-Padavan/2.png"></p>
+            </div>
 
 <h4 id="步骤3"><a href="#步骤3" class="headerlink" title="步骤3"></a>步骤3</h4><p>开始使用“开启telnet”，请打开【telnet开启工具】为K2P开启telnet服务，操作如下。</p>
 <blockquote>
 <p>注意：请确保PC的telnet客户端已经开启。</p>
 </blockquote>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/phicomm-k2p-Padavan/3.jpg"/></div></div>
+<div class="gallery ">
+              <p><img src="https://cdn.jsdelivr.net/gh/ericclose/images/phicomm-k2p-Padavan/3.jpg"></p>
+            </div>
 
 <h2 id="刷入BREED"><a href="#刷入BREED" class="headerlink" title="刷入BREED"></a>刷入<a target="_blank" rel="noopener" href="https://breed.hackpascal.net/">BREED</a></h2><p>首先下载好BREED，<a target="_blank" rel="noopener" href="https://breed.hackpascal.net/breed-mt7621-phicomm-k2p.bin">【点击下载】</a><br>按 快捷键Win+R 输入 <code>telnet 192.168.2.1</code> 登录到路由器，进去后如下：  </p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/phicomm-k2p-Padavan/4.png"/></div></div>
+<div class="gallery ">
+              <p><img src="https://cdn.jsdelivr.net/gh/ericclose/images/phicomm-k2p-Padavan/4.png"></p>
+            </div>
 
 <p>登陆后，照如下输入命令</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">root@K2P:/<span class="comment">#cd /tmp</span></span><br><span class="line">root@K2P:/tmp<span class="comment">#opkg install http://downloads.openwrt.org/chaos_calmer/15.05/ramips/mt7621/packages/packages/wget_1.16.3-1_ramips_1004kc.ipk</span></span><br></pre></td></tr></table></figure>
@@ -523,13 +528,16 @@ K2P (B2)
 <p>写入成功的情况下会自动重启的.</p>
 <p>重启后路由断电，按住reset键，接通电源继续长按10秒左右即可进入BREED。<br>进入BREED后即可刷机了。</p>
 <h2 id="固件备份"><a href="#固件备份" class="headerlink" title="固件备份"></a>固件备份</h2><p>浏览器输入 <code>192.168.1.1</code> 进入BREED<br><strong>切记：一定要做好备份工作</strong><br>「备份」-&gt; 分别选择EEPROM，固件，编程器固件，如图：  </p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/phicomm-k2p-Padavan/5.png"/></div></div>
-
+<p><img src="https://cdn.jsdelivr.net/gh/ericclose/images/phicomm-k2p-Padavan/5.png"></p>
 <h2 id="开始刷机"><a href="#开始刷机" class="headerlink" title="开始刷机"></a>开始刷机</h2><p>开刷前，请必须记得先「恢复出厂设置」-&gt;「Config 区 (公版)」，然后点「执行」<br>Padavan 下载地址：<a target="_blank" rel="noopener" href="https://opt.cn2qq.com/padavan/">https://opt.cn2qq.com/padavan/</a><br>找到 <code>K2P_DRV_3.4.3.9-099.trx</code> 下载<br>恢复出厂设置以后，选择「固件升级」-&gt;勾选固件-&gt;浏览，选中你下载好的 K2P 的Padavan固件，比如我这次是「K2P_DRV_3.4.3.9-099.trx」，点击「上传」即可，如图：  </p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/phicomm-k2p-Padavan/6.jpg"/></div></div>
+<div class="gallery ">
+              <p><img src="https://cdn.jsdelivr.net/gh/ericclose/images/phicomm-k2p-Padavan/6.png"></p>
+            </div>
 
 <p>等待路由器刷机成功并重启即可访问管理后台  </p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/ericclose/images/phicomm-k2p-Padavan/7.png"/></div></div>
+<div class="gallery ">
+              <p><img src="https://cdn.jsdelivr.net/gh/ericclose/images/phicomm-k2p-Padavan/7.png"></p>
+            </div>
 
 <p>不同固件的默认管理后台地址不一样，我这里 Padavan 的例子是 <strong>192.168.123.1</strong>，而用户名密码则均是 <strong>admin</strong> 。<br>补充一句：WiFi的默认密码为：<strong>1234567890</strong> ，大家要记得这个，因为以后如果将Padavan重置的时候，很多人都不知道WiFi密码是多少，以为还是原来你设置的密码，其实不是的，已经变成了默认密码了。</p>
 

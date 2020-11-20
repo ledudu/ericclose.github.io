@@ -8,6 +8,54 @@
     </url>
 
     <url>
+        <loc>https://ericclose.github.io/phicomm-k2p-Padavan.html</loc>
+        <lastmod>2020-11-20T08:14:48.950Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://ericclose.github.io/Captive-Portal-Android.html</loc>
+        <lastmod>2020-11-20T07:38:27.523Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://ericclose.github.io/you-get-tutorial.html</loc>
+        <lastmod>2020-11-20T07:26:08.843Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://ericclose.github.io/Windows-diskpart-tutorial.html</loc>
+        <lastmod>2020-11-20T07:15:47.365Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://ericclose.github.io/Navicat.html</loc>
+        <lastmod>2020-11-20T07:11:23.719Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://ericclose.github.io/Github-Pages-with-Hexo.html</loc>
+        <lastmod>2020-11-20T06:39:41.914Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://ericclose.github.io/Pixel-repairs-and-carriers.html</loc>
         <lastmod>2020-11-11T09:21:17.611Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -34,14 +82,6 @@
     <url>
         <loc>https://ericclose.github.io/access-onionland-with-Tor-on-CentOS-7.html</loc>
         <lastmod>2020-10-02T07:15:30.475Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://ericclose.github.io/Windows-diskpart-tutorial.html</loc>
-        <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -88,6 +128,14 @@
     </url>
 
     <url>
+        <loc>https://ericclose.github.io/shadowsocks-client-on-CentOS-7.html</loc>
+        <lastmod>2020-09-29T09:54:29.502Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://ericclose.github.io/libinput-gestures-on-Arch-Linux-with-KDE.html</loc>
         <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -96,23 +144,7 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/phicomm-k2p-Padavan.html</loc>
-        <lastmod>2020-09-29T09:54:29.502Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://ericclose.github.io/shadowsocks-qt5-for-Fedora-30.html</loc>
-        <lastmod>2020-09-29T09:54:29.502Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://ericclose.github.io/shadowsocks-client-on-CentOS-7.html</loc>
         <lastmod>2020-09-29T09:54:29.502Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -136,48 +168,8 @@
     </url>
 
     <url>
-        <loc>https://ericclose.github.io/you-get-tutorial.html</loc>
-        <lastmod>2020-09-29T09:54:29.502Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://ericclose.github.io/R619AC-OpBoot-and-OpenWrt-flashing.html</loc>
         <lastmod>2020-09-29T09:54:29.502Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://ericclose.github.io/Captive-Portal-Android.html</loc>
-        <lastmod>2020-09-29T09:54:29.487Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://ericclose.github.io/Github-Pages-with-Hexo.html</loc>
-        <lastmod>2020-09-29T09:54:29.487Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://ericclose.github.io/JetBrains.html</loc>
-        <lastmod>2020-09-29T09:54:29.487Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://ericclose.github.io/Navicat.html</loc>
-        <lastmod>2020-09-29T09:54:29.487Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
